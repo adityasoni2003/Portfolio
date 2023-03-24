@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background-color: white ;
+  color: gainsboro;
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  animation: all 2000ms ease-in;
+  font-family: 'Orbitron';
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  text-decoration: underline;
+  color: black;
+
+}
+
+.gradient,
+.active {
+  background-color: rgb(26,26,27);
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .btn {
+    @apply rounded-full font-primary text-white font-medium;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#4262e3] to-[#e03b3b] font-bold font-primary hover:from-[#fdfcfc] hover:to-[#4c6ffb];
+  }
+  .section {
+    @apply  lg:py-24 lg:h-screen flex items-center;
+  }
+}
+
+
+body {
+  --sb-track-color: #657eff;
+  --sb-thumb-color: #b3127f;
+  --sb-size: 6px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 25px;
+  
+  }
+
+
+#app{
+  background-color:rgb(26,26,27);
+}
