@@ -54,7 +54,7 @@
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#4262e3] to-[#e03b3b] font-bold font-primary hover:from-[#fdfcfc] hover:to-[#4c6ffb];
   }
   .section {
-    @apply  lg:py-24 lg:h-screen flex items-center;
+    @apply  lg:py-24 lg:h-screen  flex items-center;
   }
 }
 

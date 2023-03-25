@@ -6,9 +6,9 @@ import {fadeIn} from '../variants'
 
 const Contact = () => {
   return (
-    <section className='section min-h-screen' id='contact'>
-      <div className="container mx-auto">
-        <div className='flex flex-col lg:flex-row '>
+    <section className='section min-h-screen relative top-28' id='contact'>
+      <div className="container mx-auto lg:static relative top-28  min-h-[120vh]">
+        <div className='flex flex-col lg:flex-row  '>
           <motion.div
           variants={fadeIn("right",0.3)}
           initial='hidden'

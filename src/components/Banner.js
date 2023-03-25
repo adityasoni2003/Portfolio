@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/image.jpeg'
+import Image from '../assets/selfimage.png'
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 
 import { TypeAnimation } from 'react-type-animation'
@@ -16,7 +16,7 @@ const Banner = () => {
             variants={fadeIn("up",0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once:false,amount:0.7}} className='text-[50px] tracking-widest mb-2 font-extrabold drop-shadow-3xl leading-[1] lg:text-[110px] underline lg:no-underline  font-baloo'>Aditya  Soni</motion.h1>
+            viewport={{once:false,amount:0.7}} className='text-[50px] tracking-widest mb-2 font-extrabold drop-shadow-3xl leading-[1] lg:text-[110px] underline text-white  lg:no-underline  font-baloo'>Aditya  Soni</motion.h1>
           </div>
           <motion.div variants={fadeIn("up",0.4)}
             initial='hidden'
@@ -59,8 +59,9 @@ const Banner = () => {
         <motion.div variants={fadeIn("up",0.6)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once:false,amount:0.7}}>
-              <img src={Image} alt="Avatar" className='mx-auto w-[200px] h-[200px]  lg:w-[300px] lg:h-auto'/>
+            viewport={{once:false,amount:0.7}}
+            className='w-[200px] h-[200px]  lg:w-[300px] lg:h-auto overflow-hidden'>
+              <img src={Image} alt="Avatar" className='  relative left-[20px] top-[-25px]'/>
             </motion.div>
         
         

@@ -24,10 +24,6 @@ module.exports = {
         primary: '#0a0a0a',
         accent: '#97DEFF',
       },
-      backgroundImage: {
-        
-        about: "url('./assets/about1.png')",
-      },
       dropShadow:{
         '3xl':'5px 5px 10px white',
         'blue':'2px 2px 4px blue',
