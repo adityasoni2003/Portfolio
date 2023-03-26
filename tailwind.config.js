@@ -25,8 +25,15 @@ module.exports = {
         accent: '#97DEFF',
       },
       dropShadow:{
-        '3xl':'5px 5px 10px white',
+        '3xl':'10px 10px 10px #8e24aa ',
+        '3xl-blue':'10px 10px 10px #60A5FA ',
         'blue':'2px 2px 4px blue',
+
+        
+      },
+      boxShadow:{
+        'inner-shadow':'inset 2px 2px 5px #8e24aa , inset -2px -2px 5px #8e24aa',
+        'outer-project':'4px 4px 12px #60A5FA ,-4px -4px 12px #60A5FA '
       }
     },
   },

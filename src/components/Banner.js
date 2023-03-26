@@ -13,16 +13,16 @@ const Banner = () => {
 
           <div className='flex   font-tertiary lg:text-left'>
             <motion.h1
-            variants={fadeIn("up",0.3)}
+            variants={fadeIn("up",0.1)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once:false,amount:0.7}} className='text-[50px] tracking-widest mb-2 font-extrabold drop-shadow-3xl leading-[1] lg:text-[110px] underline text-white  lg:no-underline  font-baloo'>Aditya  Soni</motion.h1>
+            viewport={{once:false,amount:0.7}} className='text-[50px] tracking-widest mb-2 font-extrabold drop-shadow-3xl leading-[1] lg:text-[110px] underline text-white  lg:no-underline font-primary'>Aditya  Soni</motion.h1>
           </div>
-          <motion.div variants={fadeIn("up",0.4)}
+          <motion.div variants={fadeIn("up",0.1)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once:false,amount:0.7}} className='mb-6  text-[36px] lg:text-[60px] font-secondary text-white font-bold uppercase leading-[1]'>
-            <span className='mr-5'>I am a</span>
+            viewport={{once:false,amount:0.7}} className='mb-6  text-[25px] lg:text-[60px] font-baloo text-white font-bold uppercase leading-[1]'>
+            <span className='mr-2'>I am a</span>
             <TypeAnimation 
             sequence={[
               "Coder",
@@ -32,6 +32,10 @@ const Banner = () => {
               "Human",
               2000,
               "Learner",
+              2000,
+              "Problem Solver",
+              2000,
+              "Project Creator",
               2000
              
             ]}
@@ -42,25 +46,25 @@ const Banner = () => {
 
           </motion.div>
          </div>
-         <motion.div className='mt-2 lg:mt-auto lg:mb-24 flex order-2 lg:order-[0] text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' variants={fadeIn("up",0.4)}
+         <motion.div className='lg:mt-auto lg:mb-24 flex order-2 lg:order-[0] text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' variants={fadeIn("up",0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}
             >
               <a href="https://github.com/adityasoni2003" className='hover:bg-purple-600 drop-shadow-3xl hover:scale-110 rounded-full p-1' target="_blank">
-            <FaGithub size={35}/>
+            <FaGithub size={45}/>
             </a>
-          <a href="https://www.linkedin.com/in/adityasoniprofessional/" className='hover:bg-blue-400 drop-shadow-3xl rounded-sm hover:scale-110 p-1 ' target="_blank">
-            <FaLinkedin size={35}/>
+          <a href="https://www.linkedin.com/in/adityasoniprofessional/" className='hover:bg-blue-400 drop-shadow-3xl-blue rounded-sm hover:scale-110 p-1 ' target="_blank">
+            <FaLinkedin size={45}/>
           </a>
   
           </motion.div>
         
-        <motion.div variants={fadeIn("up",0.6)}
+        <motion.div variants={fadeIn("up",0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}
-            className=' h-[200px]  lg:w-[300px] lg:h-auto overflow-hidden w-full'>
+            className='  lg:w-[300px] h-[200px] lg:h-auto overflow-hidden w-full'>
               <img src={Image} alt="Avatar" className='  relative left-[20px] w-[200px] top-[-25px] ml-auto'/>
             </motion.div>
         

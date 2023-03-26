@@ -25,16 +25,16 @@ const About = () => {
 
   return (<section className='section' id='about' ref={ref}>
     <div className='container mx-auto'> 
-    <div className='flex flex-col lg:flex-row gap-0 lg:items-center lg:gap-x-24 lg:gap-y-0'>
+    <div className='flex flex-col lg:flex-row gap-0 lg:items-center lg:gap-x-24 '>
 
     
     <motion.div
-      variants={fadeIn("right",0.2)}
+      variants={fadeIn("right",0.1)}
       initial='hidden'
       whileInView={'show'}
       viewport={{once:false,amount:0.7}}
-    className='flex-1 flex flex-col items-center justify-center '>
-      <h1 className='text-center  text-accent no-underline h2 font-bold'>Skills</h1>
+    className='flex-1 order-2 lg:order-1 flex flex-col items-center justify-center '>
+      <h1 className='text-center  text-accent no-underline h2 font-baloo font-bold'>Skills</h1>
       <div className='flex flex-wrap gap-10 justify-center items-center '>
       <img src={HTMLlogo} className='w-20 lg:w-24' alt="" />
       <img src={Csslogo} className='w-20 lg:w-24' alt="" />
@@ -51,26 +51,17 @@ const About = () => {
       
     </motion.div>
     <motion.div
-    variants={fadeIn("left",0.3)}
+    variants={fadeIn("left",0.1)}
     initial='hidden'
     whileInView={'show'}
     viewport={{once:false,amount:0.7}}
-    className='lg:flex-1 flex-auto '>
-    <h2 className='text-accent h2 font-bold  '>About Me</h2>
-    <h3 className='h3 mb-4 font-baloo font-bold text-white'>I'm a Full stack Developer with experience in latest technologies.</h3>
-    <p className='text-white font-baloo'>A Web developer based in Bhilwara, Rajasthan , India. I bring complex web applications to life with elegant design and intuitive functionality.
+    className='lg:flex-1 flex-auto order-1 lg:order-2 '>
+    <h2 className='text-accent h2 font-baloo font-bold  '>About Me</h2>
+    <h3 className='h3 mb-4 font-mono font-bold text-white'>I'm a Full stack Developer with experience in latest technologies.</h3>
+    <p className='text-white font-mono'>A Web developer based in Bhilwara, Rajasthan , India. I bring complex web applications to life with elegant design and intuitive functionality.
 I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX. I'm an extremely curious individual with a huge passion for development in general</p>
     <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
-      <div>
-        <div className='text-[40px] font-primary text-gradient mb-2'>
-        {inView? <CountUp start={0} end={0} duration={3}/> :null}
-          
-        </div>
-        <div className='font-tertiary text-accent text-sm tracking-[2px]'>
-          Years of <br/>
-          Experience
-        </div>
-      </div>
+      
       <div>
         <div className='text-[40px]  font-primary text-gradient mb-2'>
         {inView? <CountUp start={0} end={8} duration={3}/> :null}
