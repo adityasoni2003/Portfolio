@@ -9,14 +9,14 @@ import { BsFillFastForwardFill } from 'react-icons/bs'
 const Work = () => {
   return (
     <section className='section' id='projects'> 
-    <div className='container mx-auto relative top-48 lg:static '>
+    <div className='container mx-auto relative top-40'>
       <div className='flex  flex-col lg:flex-row gap-x-10 '>
         <motion.div
         variants={fadeIn("right",0.2)}
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false,amount:0.3}}
-        className='flex-1 flex flex-col  mb-10 lg:mb-0  font-secondary'>
+        className='flex-1 flex flex-col  mb-10 lg:mb-0 lg:gap-0 gap-4  font-secondary'>
         <div className='flex-1'>
             <h2 className='h2 leading-tight text-accent font-bold'>My latest <br />
             Projects</h2>

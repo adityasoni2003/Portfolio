@@ -60,8 +60,8 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}
-            className='w-[200px] h-[200px]  lg:w-[300px] lg:h-auto overflow-hidden'>
-              <img src={Image} alt="Avatar" className='  relative left-[20px] top-[-25px]'/>
+            className=' h-[200px]  lg:w-[300px] lg:h-auto overflow-hidden w-full'>
+              <img src={Image} alt="Avatar" className='  relative left-[20px] w-[200px] top-[-25px] ml-auto'/>
             </motion.div>
         
         

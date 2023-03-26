@@ -25,7 +25,7 @@ const About = () => {
 
   return (<section className='section' id='about' ref={ref}>
     <div className='container mx-auto'> 
-    <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-24 lg:gap-y-0 h-screen'>
+    <div className='flex flex-col lg:flex-row gap-0 lg:items-center lg:gap-x-24 lg:gap-y-0'>
 
     
     <motion.div
@@ -55,7 +55,7 @@ const About = () => {
     initial='hidden'
     whileInView={'show'}
     viewport={{once:false,amount:0.7}}
-    className='flex-1 mt-10 '>
+    className='lg:flex-1 flex-auto '>
     <h2 className='text-accent h2 font-bold  '>About Me</h2>
     <h3 className='h3 mb-4 font-baloo font-bold text-white'>I'm a Full stack Developer with experience in latest technologies.</h3>
     <p className='text-white font-baloo'>A Web developer based in Bhilwara, Rajasthan , India. I bring complex web applications to life with elegant design and intuitive functionality.
