@@ -18,7 +18,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once:false,amount:0.7}} className='text-[50px] tracking-widest mb-2 font-extrabold drop-shadow-3xl leading-[1] lg:text-[110px] underline text-white  lg:no-underline font-primary'>Aditya  Soni</motion.h1>
           </div>
-          <motion.div variants={fadeIn("up",0.1)}
+          <motion.div variants={fadeIn("up",0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}} className='mb-6  text-[25px] lg:text-[60px] font-baloo text-white font-bold uppercase leading-[1]'>
@@ -46,7 +46,7 @@ const Banner = () => {
 
           </motion.div>
          </div>
-         <motion.div className='lg:mt-auto lg:mb-24 flex order-2 lg:order-[0] text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' variants={fadeIn("up",0.2)}
+         <motion.div className='lg:mt-auto lg:mb-24 flex order-2 lg:order-[0] text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' variants={fadeIn("up",0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}
@@ -60,7 +60,7 @@ const Banner = () => {
   
           </motion.div>
         
-        <motion.div variants={fadeIn("up",0.2)}
+        <motion.div variants={fadeIn("up",0.4)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}

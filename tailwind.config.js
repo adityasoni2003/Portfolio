@@ -33,7 +33,9 @@ module.exports = {
       },
       boxShadow:{
         'inner-shadow':'inset 2px 2px 5px #8e24aa , inset -2px -2px 5px #8e24aa',
-        'outer-project':'4px 4px 12px #60A5FA ,-4px -4px 12px #60A5FA '
+        'outer-project':'4px 4px 12px #60A5FA ,-4px -4px 12px #60A5FA',
+        'outer-project-purple':'4px 4px 12px #8e24aa ,-4px -4px 12px #8e24aa ,inset 4px 4px 12px #8e24aa,inset -4px -4px 12px #8e24aa '
+        
       }
     },
   },

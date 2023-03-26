@@ -29,7 +29,7 @@ const About = () => {
 
     
     <motion.div
-      variants={fadeIn("right",0.1)}
+      variants={fadeIn("right",0.0)}
       initial='hidden'
       whileInView={'show'}
       viewport={{once:false,amount:0.7}}
@@ -51,7 +51,7 @@ const About = () => {
       
     </motion.div>
     <motion.div
-    variants={fadeIn("left",0.1)}
+    variants={fadeIn("left",0.0)}
     initial='hidden'
     whileInView={'show'}
     viewport={{once:false,amount:0.7}}
@@ -59,7 +59,7 @@ const About = () => {
     <h2 className='text-accent h2 font-baloo font-bold  '>About Me</h2>
     <h3 className='h3 mb-4 font-mono font-bold text-white'>I'm a Full stack Developer with experience in latest technologies.</h3>
     <p className='text-white font-mono'>A Web developer based in Bhilwara, Rajasthan , India. I bring complex web applications to life with elegant design and intuitive functionality.
-I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX. I'm an extremely curious individual with a huge passion for development in general</p>
+I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX. I'm an extremely curious individual with a huge passion for development in general.</p>
     <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
       
       <div>

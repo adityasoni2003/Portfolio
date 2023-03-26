@@ -26,7 +26,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false,amount:0.7}}
-          className=' flex-1 border font-baloo rounded-2xl flex flex-col gap-y-4 pb-24 items-start p-6' method="post" action='https://getform.io/f/ecfd0a3c-ccd5-4904-8b1c-32c96daac508'>
+          className=' flex-1 border shadow-outer-project-purple font-baloo rounded-2xl flex flex-col gap-y-4 pb-24 items-start p-6' method="post" action='https://getform.io/f/ecfd0a3c-ccd5-4904-8b1c-32c96daac508'>
           <input className='bg-transparent border-b py-3 outline-none w-full text-white placeholder:text-white focus:border-accent transition-all' type="text" name='name' placeholder='Your name' required />
           
           <input className='bg-transparent border-b py-3 outline-none w-full text-white placeholder:text-white focus:border-accent transition-all' type="email" name='email' placeholder='Your email' required/>
