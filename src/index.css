@@ -41,6 +41,9 @@
   .h3 {
     @apply font-semibold text-[26px] mb-6 leading-[46px];
   }
+  .h4 {
+    @apply font-semibold text-[18px] mb-6 leading-[46px];
+  }
   .btn {
     @apply rounded-full  text-white font-medium;
   }

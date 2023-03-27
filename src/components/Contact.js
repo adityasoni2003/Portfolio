@@ -2,7 +2,7 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 import {fadeIn} from '../variants'
-
+import {MdEmail ,MdPhone} from 'react-icons/md'
 
 const Contact = () => {
   return (
@@ -18,6 +18,8 @@ const Contact = () => {
             <div>
               <h4 className='text-xl uppercase text-accent  font-bold font-mono mb-2'>Get In Touch</h4>
               <h2 className='text-[45px] lg:text-[90px] text-white leading-none mb-12 font-baloo'>Let's work <br />together!</h2>
+              <h3 className='lg:h3 text-white'><MdEmail/> adityasoniprofessional@gmail.com</h3>
+              <h3 className='h lg:h3 text-white'><MdPhone/> +91 8619112797</h3>
             </div>
 
           </motion.div>
