@@ -16,7 +16,7 @@ const Work = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false,amount:0.3}}
-        className='flex-1 flex flex-col  mb-10 lg:mb-0 lg:gap-0 gap-4  font-secondary'>
+        className='flex-1 flex flex-col  mb-10 lg:mb-0 lg:gap-2 pb-[2px] gap-4  font-secondary'>
         <div className='flex-1'>
             <h2 className='h2 leading-tight text-accent font-baloo font-bold'>My latest <br />
             Projects</h2>
@@ -42,7 +42,7 @@ const Work = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false,amount:0.2}}
-         className='flex-1 flex flex-col gap-y-14 mb-10 lg:mb-0 '>
+         className='flex-1 flex flex-col gap-y-14 mb-10 lg:mb-0  '>
           <a href="https://github.com/adityasoni2003/Django-TodoList" target='_blank'>
 
         <div className='group relative overflow-hidden flex-1 border-2
