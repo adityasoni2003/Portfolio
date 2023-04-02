@@ -13,7 +13,7 @@ const Header = () => {
       <a href="../demo.pdf" download={true} className='block lg:hidden'>
       <GrDocumentDownload size={30}/>
       </a>
-      <a href="./aditya-updated.pdf" download={true}>
+      <a href="./aditya-soni.pdf" download={true}>
 
       <span className='hidden lg:inline'>Resume</span>
       </a>
